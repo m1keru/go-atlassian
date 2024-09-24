@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: ctreminiom
+assignees: m1keru
 
 ---
 
@@ -38,7 +38,7 @@ package main
 
 import (
 	"context"
-	"github.com/ctreminiom/go-atlassian/jira"
+	"github.com/m1keru/go-atlassian/jira"
 	"log"
 	"os"
 )

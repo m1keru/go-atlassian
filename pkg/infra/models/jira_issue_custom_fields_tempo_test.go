@@ -149,7 +149,7 @@ func TestParseTempoAccountCustomFields(t *testing.T) {
     {
       "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id":"10035",
-      "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key":"KP-22",
       "fields":{
         "customfield_10036":{
@@ -172,7 +172,7 @@ func TestParseTempoAccountCustomFields(t *testing.T) {
     {
       "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id":"10035",
-      "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key":"KP-22",
       "no_fields":{
         "customfield_10036":{
@@ -195,7 +195,7 @@ func TestParseTempoAccountCustomFields(t *testing.T) {
     {
       "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id":"10035",
-      "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key":"KP-22",
       "fields":{
         "customfield_10036":null
@@ -215,7 +215,7 @@ func TestParseTempoAccountCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": "string"

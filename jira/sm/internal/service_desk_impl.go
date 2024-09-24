@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"strconv"
 
-	model "github.com/ctreminiom/go-atlassian/pkg/infra/models"
-	"github.com/ctreminiom/go-atlassian/service"
-	"github.com/ctreminiom/go-atlassian/service/sm"
+	model "github.com/m1keru/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/service"
+	"github.com/m1keru/go-atlassian/service/sm"
 )
 
 // NewServiceDeskService creates a new instance of ServiceDeskService.

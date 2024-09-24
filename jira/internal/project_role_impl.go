@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	model "github.com/ctreminiom/go-atlassian/pkg/infra/models"
-	"github.com/ctreminiom/go-atlassian/service"
-	"github.com/ctreminiom/go-atlassian/service/jira"
+	model "github.com/m1keru/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/service"
+	"github.com/m1keru/go-atlassian/service/jira"
 )
 
 // NewProjectRoleService creates a new instance of ProjectRoleService.
@@ -116,7 +116,7 @@ func (i *internalProjectRoleImpl) Gets(ctx context.Context, projectKeyOrID strin
 			return nil, response, err
 		}
 
-		uriAsSlice := strings.Split(uri.Path, "/") // "ctreminiom.atlassian.net,rest,api,3,project,10000,role,10002"
+		uriAsSlice := strings.Split(uri.Path, "/") // "m1keru.atlassian.net,rest,api,3,project,10000,role,10002"
 		uriRoleID := uriAsSlice[len(uriAsSlice)-1] // 10002
 
 		roleID, err := strconv.Atoi(uriRoleID)

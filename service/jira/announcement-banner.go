@@ -2,7 +2,7 @@ package jira
 
 import (
 	"context"
-	"github.com/ctreminiom/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/pkg/infra/models"
 )
 
 // AnnouncementBannerConnector resource represents the Jira announcement banner.

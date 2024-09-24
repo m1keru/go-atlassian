@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	model "github.com/ctreminiom/go-atlassian/pkg/infra/models"
-	"github.com/ctreminiom/go-atlassian/service"
-	"github.com/ctreminiom/go-atlassian/service/mocks"
+	model "github.com/m1keru/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/service"
+	"github.com/m1keru/go-atlassian/service/mocks"
 )
 
 func Test_internalProjectRoleImpl_Get(t *testing.T) {
@@ -168,11 +168,11 @@ func Test_internalProjectRoleImpl_Gets(t *testing.T) {
 	responseMocked := bytes.Buffer{}
 	responseMocked.WriteString(`
 	{
-	  "atlassian-addons-project-access": "https://ctreminiom.atlassian.net/rest/api/3/project/10000/role/10003",
-	  "Service Desk Team": "https://ctreminiom.atlassian.net/rest/api/3/project/10000/role/10005",
-	  "Developers": "https://ctreminiom.atlassian.net/rest/api/3/project/10000/role/10006",
-	  "Service Desk Customers": "https://ctreminiom.atlassian.net/rest/api/3/project/10000/role/10004",
-	  "Administrators": "https://ctreminiom.atlassian.net/rest/api/3/project/10000/role/10002"
+	  "atlassian-addons-project-access": "https://m1keru.atlassian.net/rest/api/3/project/10000/role/10003",
+	  "Service Desk Team": "https://m1keru.atlassian.net/rest/api/3/project/10000/role/10005",
+	  "Developers": "https://m1keru.atlassian.net/rest/api/3/project/10000/role/10006",
+	  "Service Desk Customers": "https://m1keru.atlassian.net/rest/api/3/project/10000/role/10004",
+	  "Administrators": "https://m1keru.atlassian.net/rest/api/3/project/10000/role/10002"
 	}`)
 
 	type fields struct {

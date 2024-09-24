@@ -15,19 +15,19 @@ func TestParseMultiSelectCustomField(t *testing.T) {
 	"fields": {
 		"customfield_10046": [
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10044",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10044",
         "value": "Option 1",
         "id": "10044",
 		"optionId": "12222",
 		"disabled": true
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10046",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10046",
         "value": "Option 3",
         "id": "10046"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10047",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10047",
         "value": "Option 4",
         "id": "10047"
       }
@@ -41,12 +41,12 @@ func TestParseMultiSelectCustomField(t *testing.T) {
 	"field_no_mapped": {
 		"customfield_10046": [
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10044",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10044",
         "value": "Option 1",
         "id": "10044"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10046",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10046",
         "value": "Option 3",
         "id": "10046"
       }
@@ -182,12 +182,12 @@ func TestParseMultiGroupPickerField(t *testing.T) {
       {
         "name": "jira-administrators",
         "groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+        "self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
       },
       {
         "name": "jira-administrators-system",
         "groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+        "self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
       }
     ]
 	}
@@ -201,12 +201,12 @@ func TestParseMultiGroupPickerField(t *testing.T) {
       {
         "name": "jira-administrators",
         "groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+        "self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
       },
       {
         "name": "jira-administrators-system",
         "groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+        "self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
       }
     ]
 	}
@@ -251,12 +251,12 @@ func TestParseMultiGroupPickerField(t *testing.T) {
 			},
 			want: []*GroupDetailScheme{
 				{
-					Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
+					Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 					Name:    "jira-administrators",
 					GroupID: "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 				},
 				{
-					Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
+					Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 					Name:    "jira-administrators-system",
 					GroupID: "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 				},
@@ -334,7 +334,7 @@ func TestParseMultiUserPickerField(t *testing.T) {
 	"fields": {
 		"customfield_10055": [
      {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+        "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
         "accountId": "5e5f6a63157ed50cd2b9eaca",
         "avatarUrls": {
           "48x48": "https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -348,9 +348,9 @@ func TestParseMultiUserPickerField(t *testing.T) {
         "accountType": "atlassian"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+        "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
         "accountId": "5b86be50b8e3cb5895860d6d",
-        "emailAddress": "ctreminiom079@gmail.com",
+        "emailAddress": "m1keru079@gmail.com",
         "avatarUrls": {
           "48x48": "https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
           "24x24": "https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -363,7 +363,7 @@ func TestParseMultiUserPickerField(t *testing.T) {
         "accountType": "atlassian"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+        "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
         "accountId": "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
         "avatarUrls": {
           "48x48": "https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -386,7 +386,7 @@ func TestParseMultiUserPickerField(t *testing.T) {
 	"field_no_mapped": {
 		"customfield_10055": [
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+        "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
         "accountId": "5e5f6a63157ed50cd2b9eaca",
         "avatarUrls": {
           "48x48": "https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -400,9 +400,9 @@ func TestParseMultiUserPickerField(t *testing.T) {
         "accountType": "atlassian"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+        "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
         "accountId": "5b86be50b8e3cb5895860d6d",
-        "emailAddress": "ctreminiom079@gmail.com",
+        "emailAddress": "m1keru079@gmail.com",
         "avatarUrls": {
           "48x48": "https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
           "24x24": "https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -458,7 +458,7 @@ func TestParseMultiUserPickerField(t *testing.T) {
 			},
 			want: []*UserDetailScheme{
 				{
-					Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+					Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
 					AccountID:   "5e5f6a63157ed50cd2b9eaca",
 					DisplayName: "Carlos Treminio",
 					Active:      true,
@@ -466,16 +466,16 @@ func TestParseMultiUserPickerField(t *testing.T) {
 					AccountType: "atlassian",
 				},
 				{
-					Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+					Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
 					AccountID:    "5b86be50b8e3cb5895860d6d",
-					EmailAddress: "ctreminiom079@gmail.com",
+					EmailAddress: "m1keru079@gmail.com",
 					DisplayName:  "Carlos Treminio",
 					Active:       true,
 					TimeZone:     "America/Guatemala",
 					AccountType:  "atlassian",
 				},
 				{
-					Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+					Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
 					AccountID:   "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
 					DisplayName: "Trello",
 					Active:      true,
@@ -558,11 +558,11 @@ func TestParseCascadingSelectField(t *testing.T) {
 {
   "fields": {
     "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+      "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
       "value": "America",
       "id": "10054",
       "child": {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
         "value": "Costa Rica",
         "id": "10057"
       }
@@ -575,11 +575,11 @@ func TestParseCascadingSelectField(t *testing.T) {
 {
   "fields_no_mapped": {
     "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+      "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
       "value": "America",
       "id": "10054",
       "child": {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+        "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
         "value": "Costa Rica",
         "id": "10057"
       }
@@ -626,11 +626,11 @@ func TestParseCascadingSelectField(t *testing.T) {
 				customField: "customfield_10045",
 			},
 			want: &CascadingSelectScheme{
-				Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+				Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 				Value: "America",
 				ID:    "10054",
 				Child: &CascadingSelectChildScheme{
-					Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+					Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 					Value: "Costa Rica",
 					ID:    "10057",
 				},
@@ -713,7 +713,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
 	"fields": {
 		"customfield_10046": [
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+        "self": "https://m1keru.atlassian.net/rest/api/3/version/10000",
         "id": "10000",
         "description": "",
         "name": "Version 00",
@@ -722,7 +722,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
         "releaseDate": "2021-02-23"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+        "self": "https://m1keru.atlassian.net/rest/api/3/version/10002",
         "id": "10002",
         "description": "Version Sandbox description - UPDATED",
         "name": "Version Sandbox - UPDATED",
@@ -740,7 +740,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
 	"field_no_mapped": {
 		"customfield_10046": [
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+        "self": "https://m1keru.atlassian.net/rest/api/3/version/10000",
         "id": "10000",
         "description": "",
         "name": "Version 00",
@@ -749,7 +749,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
         "releaseDate": "2021-02-23"
       },
       {
-        "self": "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+        "self": "https://m1keru.atlassian.net/rest/api/3/version/10002",
         "id": "10002",
         "description": "Version Sandbox description - UPDATED",
         "name": "Version Sandbox - UPDATED",
@@ -801,7 +801,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
 			},
 			want: []*VersionDetailScheme{
 				{
-					Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+					Self:        "https://m1keru.atlassian.net/rest/api/3/version/10000",
 					ID:          "10000",
 					Description: "",
 					Name:        "Version 00",
@@ -810,7 +810,7 @@ func TestParseMultiVersionCustomField(t *testing.T) {
 					ReleaseDate: "2021-02-23",
 				},
 				{
-					Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+					Self:        "https://m1keru.atlassian.net/rest/api/3/version/10002",
 					ID:          "10002",
 					Description: "Version Sandbox description - UPDATED",
 					Name:        "Version Sandbox - UPDATED",
@@ -896,7 +896,7 @@ func TestParseUserPickerCustomField(t *testing.T) {
 {
   "fields": {
     "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+      "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
       "accountId": "5e5f6acefc1fca0af44135f8",
 	  "emailAddress": "example@example.com",
       "avatarUrls": {
@@ -918,7 +918,7 @@ func TestParseUserPickerCustomField(t *testing.T) {
 {
   "fields_no_mapped": {
     "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+      "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
       "accountId": "5e5f6acefc1fca0af44135f8",
       "avatarUrls": {
         "48x48": "https://secure.gravatar.com/avatar/6c20a29c5ab36b3cbc121782edaadfc9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FEN-4.png",
@@ -973,7 +973,7 @@ func TestParseUserPickerCustomField(t *testing.T) {
 				customField: "customfield_10045",
 			},
 			want: &UserDetailScheme{
-				Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+				Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 				AccountID:    "5e5f6acefc1fca0af44135f8",
 				EmailAddress: "example@example.com",
 				DisplayName:  "Eduardo Navarro",
@@ -1791,7 +1791,7 @@ func TestParseSelectCustomField(t *testing.T) {
 {
   "fields": {
     "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10058",
+      "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10058",
       "value": "Scranton 1",
       "id": "10058"
     }
@@ -1803,7 +1803,7 @@ func TestParseSelectCustomField(t *testing.T) {
 {
   "fields_no_mapped": {
    "customfield_10045": {
-      "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10058",
+      "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10058",
       "value": "Scranton 1",
       "id": "10058"
     }
@@ -2272,17 +2272,17 @@ func TestParseMultiSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -2303,17 +2303,17 @@ func TestParseMultiSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -2334,7 +2334,7 @@ func TestParseMultiSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -2354,7 +2354,7 @@ func TestParseMultiSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": "string"
@@ -2456,19 +2456,19 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": [
 				  {
 					"name": "jira-administrators",
 					"groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
 				  },
 				  {
 					"name": "jira-administrators-system",
 					"groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
 				  }
 				]
             }
@@ -2476,19 +2476,19 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
 		{
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-23",
             "fields": {
                 "customfield_10046": [
 				  {
 					"name": "jira-administrators-2",
 					"groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
 				  },
 				  {
 					"name": "jira-administrators-system-2",
 					"groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
 				  }
 				]
             }
@@ -2507,17 +2507,17 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -2538,7 +2538,7 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -2558,7 +2558,7 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null,
@@ -2567,19 +2567,19 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
 		{
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-23",
             "fields": {
                 "customfield_10046": [
 				  {
 					"name": "jira-administrators-2",
 					"groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
 				  },
 				  {
 					"name": "jira-administrators-system-2",
 					"groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
 				  }
 				]
             }
@@ -2598,28 +2598,28 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
-                "customfield_10046": "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+                "customfield_10046": "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             }
         },
 		{
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-23",
             "fields": {
                 "customfield_10046": [
 				  {
 					"name": "jira-administrators-2",
 					"groupId": "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764"
 				  },
 				  {
 					"name": "jira-administrators-system-2",
 					"groupId": "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
-					"self": "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
+					"self": "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a"
 				  }
 				]
             }
@@ -2647,24 +2647,24 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
 			want: map[string][]*GroupDetailScheme{
 				"KP-22": {
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 						Name:    "jira-administrators",
 						GroupID: "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 					},
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 						Name:    "jira-administrators-system",
 						GroupID: "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 					},
 				},
 				"KP-23": {
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 						Name:    "jira-administrators-2",
 						GroupID: "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 					},
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 						Name:    "jira-administrators-system-2",
 						GroupID: "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 					},
@@ -2693,12 +2693,12 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
 			want: map[string][]*GroupDetailScheme{
 				"KP-23": {
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 						Name:    "jira-administrators-2",
 						GroupID: "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 					},
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 						Name:    "jira-administrators-system-2",
 						GroupID: "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 					},
@@ -2716,12 +2716,12 @@ func TestParseMultiGroupPickerCustomFields(t *testing.T) {
 			want: map[string][]*GroupDetailScheme{
 				"KP-23": {
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 						Name:    "jira-administrators-2",
 						GroupID: "1da6f895-2b42-423b-8bfb-1e09ee8d7764",
 					},
 					{
-						Self:    "https://ctreminiom.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
+						Self:    "https://m1keru.atlassian.net/rest/api/3/group?groupId=be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 						Name:    "jira-administrators-system-2",
 						GroupID: "be9ba0ab-ecdc-445b-9ce6-b95202026c1a",
 					},
@@ -2760,12 +2760,12 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -2779,9 +2779,9 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -2794,7 +2794,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -2813,12 +2813,12 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -2832,9 +2832,9 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -2847,7 +2847,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -2878,17 +2878,17 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -2909,7 +2909,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -2929,7 +2929,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null,
@@ -2938,12 +2938,12 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -2957,9 +2957,9 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -2972,7 +2972,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -3002,21 +3002,21 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
          }
       },
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -3030,9 +3030,9 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -3045,7 +3045,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -3085,7 +3085,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 			want: map[string][]*UserDetailScheme{
 				"KP-22": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
 						AccountID:   "5e5f6a63157ed50cd2b9eaca",
 						DisplayName: "Carlos Treminio",
 						Active:      true,
@@ -3093,16 +3093,16 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 						AccountType: "atlassian",
 					},
 					{
-						Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+						Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
 						AccountID:    "5b86be50b8e3cb5895860d6d",
 						DisplayName:  "Carlos Treminio",
-						EmailAddress: "ctreminiom079@gmail.com",
+						EmailAddress: "m1keru079@gmail.com",
 						Active:       true,
 						TimeZone:     "America/Guatemala",
 						AccountType:  "atlassian",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
 						AccountID:   "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
 						DisplayName: "Trello",
 						Active:      true,
@@ -3112,7 +3112,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 				},
 				"KP-23": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
 						AccountID:   "5e5f6a63157ed50cd2b9eaca",
 						DisplayName: "Carlos Treminio",
 						Active:      true,
@@ -3120,16 +3120,16 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 						AccountType: "atlassian",
 					},
 					{
-						Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+						Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
 						AccountID:    "5b86be50b8e3cb5895860d6d",
 						DisplayName:  "Carlos Treminio",
-						EmailAddress: "ctreminiom079@gmail.com",
+						EmailAddress: "m1keru079@gmail.com",
 						Active:       true,
 						TimeZone:     "America/Guatemala",
 						AccountType:  "atlassian",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
 						AccountID:   "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
 						DisplayName: "Trello",
 						Active:      true,
@@ -3161,7 +3161,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 			want: map[string][]*UserDetailScheme{
 				"KP-23": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
 						AccountID:   "5e5f6a63157ed50cd2b9eaca",
 						DisplayName: "Carlos Treminio",
 						Active:      true,
@@ -3169,16 +3169,16 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 						AccountType: "atlassian",
 					},
 					{
-						Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+						Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
 						AccountID:    "5b86be50b8e3cb5895860d6d",
 						DisplayName:  "Carlos Treminio",
-						EmailAddress: "ctreminiom079@gmail.com",
+						EmailAddress: "m1keru079@gmail.com",
 						Active:       true,
 						TimeZone:     "America/Guatemala",
 						AccountType:  "atlassian",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
 						AccountID:   "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
 						DisplayName: "Trello",
 						Active:      true,
@@ -3199,7 +3199,7 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 			want: map[string][]*UserDetailScheme{
 				"KP-23": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
 						AccountID:   "5e5f6a63157ed50cd2b9eaca",
 						DisplayName: "Carlos Treminio",
 						Active:      true,
@@ -3207,16 +3207,16 @@ func TestParseMultiUserPickerCustomFields(t *testing.T) {
 						AccountType: "atlassian",
 					},
 					{
-						Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+						Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
 						AccountID:    "5b86be50b8e3cb5895860d6d",
 						DisplayName:  "Carlos Treminio",
-						EmailAddress: "ctreminiom079@gmail.com",
+						EmailAddress: "m1keru079@gmail.com",
 						Active:       true,
 						TimeZone:     "America/Guatemala",
 						AccountType:  "atlassian",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
 						AccountID:   "557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
 						DisplayName: "Trello",
 						Active:      true,
@@ -3258,15 +3258,15 @@ func TestParseCascadingCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 			  "value": "America",
 			  "id": "10054",
 			  "child": {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+				"self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 				"value": "Costa Rica",
 				"id": "10057"
 			  }
@@ -3276,15 +3276,15 @@ func TestParseCascadingCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 			  "value": "America",
 			  "id": "10054",
 			  "child": {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+				"self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 				"value": "Costa Rica",
 				"id": "10057"
 			  }
@@ -3306,17 +3306,17 @@ func TestParseCascadingCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -3337,7 +3337,7 @@ func TestParseCascadingCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -3357,15 +3357,15 @@ func TestParseCascadingCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 			  "value": "America",
 			  "id": "10054",
 			  "child": {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+				"self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 				"value": "Costa Rica",
 				"id": "10057"
 			  }
@@ -3375,7 +3375,7 @@ func TestParseCascadingCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -3396,21 +3396,21 @@ func TestParseCascadingCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
          }
       },
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -3424,9 +3424,9 @@ func TestParseCascadingCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -3439,7 +3439,7 @@ func TestParseCascadingCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -3478,21 +3478,21 @@ func TestParseCascadingCustomFields(t *testing.T) {
 			},
 			want: map[string]*CascadingSelectScheme{
 				"KP-22": {
-					Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+					Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 					Value: "America",
 					ID:    "10054",
 					Child: &CascadingSelectChildScheme{
-						Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+						Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 						Value: "Costa Rica",
 						ID:    "10057",
 					},
 				},
 				"KP-23": {
-					Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+					Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 					Value: "America",
 					ID:    "10054",
 					Child: &CascadingSelectChildScheme{
-						Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+						Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 						Value: "Costa Rica",
 						ID:    "10057",
 					},
@@ -3520,11 +3520,11 @@ func TestParseCascadingCustomFields(t *testing.T) {
 			},
 			want: map[string]*CascadingSelectScheme{
 				"KP-22": {
-					Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10054",
+					Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10054",
 					Value: "America",
 					ID:    "10054",
 					Child: &CascadingSelectChildScheme{
-						Self:  "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10057",
+						Self:  "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10057",
 						Value: "Costa Rica",
 						ID:    "10057",
 					},
@@ -3573,12 +3573,12 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":[
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10000",
 				"id": "10000",
 				"description": "",
 				"name": "Version 00",
@@ -3587,7 +3587,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 				"releaseDate": "2021-02-23"
 			  },
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10002",
 				"id": "10002",
 				"description": "Version Sandbox description - UPDATED",
 				"name": "Version Sandbox - UPDATED",
@@ -3601,12 +3601,12 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10000",
 				"id": "10000",
 				"description": "",
 				"name": "Version 00",
@@ -3615,7 +3615,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 				"releaseDate": "2021-02-23"
 			  },
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10002",
 				"id": "10002",
 				"description": "Version Sandbox description - UPDATED",
 				"name": "Version Sandbox - UPDATED",
@@ -3641,17 +3641,17 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -3672,7 +3672,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -3692,12 +3692,12 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":[
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10000",
 				"id": "10000",
 				"description": "",
 				"name": "Version 00",
@@ -3706,7 +3706,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 				"releaseDate": "2021-02-23"
 			  },
 			  {
-				"self": "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+				"self": "https://m1keru.atlassian.net/rest/api/3/version/10002",
 				"id": "10002",
 				"description": "Version Sandbox description - UPDATED",
 				"name": "Version Sandbox - UPDATED",
@@ -3720,7 +3720,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -3741,19 +3741,19 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/3/version/10000"
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/3/version/10000"
          }
       },
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/3/version/10000"
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/3/version/10000"
          }
       },
    ]
@@ -3781,7 +3781,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 
 				"KP-22": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10000",
 						ID:          "10000",
 						Name:        "Version 00",
 						Archived:    false,
@@ -3789,7 +3789,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 						ReleaseDate: "2021-02-23",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10002",
 						ID:          "10002",
 						Description: "Version Sandbox description - UPDATED",
 						Name:        "Version Sandbox - UPDATED",
@@ -3800,7 +3800,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 				},
 				"KP-23": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10000",
 						ID:          "10000",
 						Name:        "Version 00",
 						Archived:    false,
@@ -3808,7 +3808,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 						ReleaseDate: "2021-02-23",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10002",
 						ID:          "10002",
 						Description: "Version Sandbox description - UPDATED",
 						Name:        "Version Sandbox - UPDATED",
@@ -3842,7 +3842,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 
 				"KP-22": {
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10000",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10000",
 						ID:          "10000",
 						Name:        "Version 00",
 						Archived:    false,
@@ -3850,7 +3850,7 @@ func TestParseMultiVersionCustomFields(t *testing.T) {
 						ReleaseDate: "2021-02-23",
 					},
 					{
-						Self:        "https://ctreminiom.atlassian.net/rest/api/3/version/10002",
+						Self:        "https://m1keru.atlassian.net/rest/api/3/version/10002",
 						ID:          "10002",
 						Description: "Version Sandbox description - UPDATED",
 						Name:        "Version Sandbox - UPDATED",
@@ -3904,11 +3904,11 @@ func TestParseUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 			  "accountId": "5e5f6acefc1fca0af44135f8",
 			  "emailAddress": "example@example.com",
 			  "avatarUrls": {
@@ -3927,11 +3927,11 @@ func TestParseUserPickerCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 			  "accountId": "5e5f6acefc1fca0af44135f8",
 			  "emailAddress": "example@example.com",
 			  "avatarUrls": {
@@ -3962,17 +3962,17 @@ func TestParseUserPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -3993,7 +3993,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -4013,11 +4013,11 @@ func TestParseUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 			  "accountId": "5e5f6acefc1fca0af44135f8",
 			  "emailAddress": "example@example.com",
 			  "avatarUrls": {
@@ -4036,7 +4036,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -4057,21 +4057,21 @@ func TestParseUserPickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
          }
       },
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -4085,9 +4085,9 @@ func TestParseUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -4100,7 +4100,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -4139,7 +4139,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
 			},
 			want: map[string]*UserDetailScheme{
 				"KP-22": {
-					Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+					Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 					AccountID:    "5e5f6acefc1fca0af44135f8",
 					EmailAddress: "example@example.com",
 					DisplayName:  "Eduardo Navarro",
@@ -4148,7 +4148,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
 					AccountType:  "atlassian",
 				},
 				"KP-23": {
-					Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+					Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 					AccountID:    "5e5f6acefc1fca0af44135f8",
 					EmailAddress: "example@example.com",
 					DisplayName:  "Eduardo Navarro",
@@ -4179,7 +4179,7 @@ func TestParseUserPickerCustomFields(t *testing.T) {
 			},
 			want: map[string]*UserDetailScheme{
 				"KP-22": {
-					Self:         "https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
+					Self:         "https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6acefc1fca0af44135f8",
 					AccountID:    "5e5f6acefc1fca0af44135f8",
 					EmailAddress: "example@example.com",
 					DisplayName:  "Eduardo Navarro",
@@ -4231,7 +4231,7 @@ func TestParseStringCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
@@ -4240,7 +4240,7 @@ func TestParseStringCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
@@ -4261,17 +4261,17 @@ func TestParseStringCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -4292,7 +4292,7 @@ func TestParseStringCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -4312,7 +4312,7 @@ func TestParseStringCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
@@ -4321,7 +4321,7 @@ func TestParseStringCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -4342,7 +4342,7 @@ func TestParseStringCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": ["self": "asd"],
@@ -4351,12 +4351,12 @@ func TestParseStringCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -4370,9 +4370,9 @@ func TestParseStringCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -4385,7 +4385,7 @@ func TestParseStringCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -4492,7 +4492,7 @@ func TestParseFloatCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":  4003939
@@ -4501,7 +4501,7 @@ func TestParseFloatCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": 4003939
@@ -4522,17 +4522,17 @@ func TestParseFloatCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -4553,7 +4553,7 @@ func TestParseFloatCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -4573,7 +4573,7 @@ func TestParseFloatCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": 4003939
@@ -4582,7 +4582,7 @@ func TestParseFloatCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -4603,7 +4603,7 @@ func TestParseFloatCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": ["self": "asd"],
@@ -4612,12 +4612,12 @@ func TestParseFloatCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -4631,9 +4631,9 @@ func TestParseFloatCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -4646,7 +4646,7 @@ func TestParseFloatCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -4753,7 +4753,7 @@ func TestParseLabelCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":  ["label-1", "label-2"]
@@ -4762,7 +4762,7 @@ func TestParseLabelCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":  ["label-1", "label-2"]
@@ -4783,17 +4783,17 @@ func TestParseLabelCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -4814,7 +4814,7 @@ func TestParseLabelCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -4834,7 +4834,7 @@ func TestParseLabelCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":  ["label-1", "label-2"]
@@ -4843,7 +4843,7 @@ func TestParseLabelCustomFields(t *testing.T) {
      {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": null
@@ -4864,7 +4864,7 @@ func TestParseLabelCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": ["self": "asd"],
@@ -4873,12 +4873,12 @@ func TestParseLabelCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5e5f6a63157ed50cd2b9eaca",
                   "accountId":"5e5f6a63157ed50cd2b9eaca",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/2e6d2ee8550c63137e196a2890bc25a9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-4.png",
@@ -4892,9 +4892,9 @@ func TestParseLabelCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=5b86be50b8e3cb5895860d6d",
                   "accountId":"5b86be50b8e3cb5895860d6d",
-                  "emailAddress":"ctreminiom079@gmail.com",
+                  "emailAddress":"m1keru079@gmail.com",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
                      "24x24":"https://secure.gravatar.com/avatar/b830f79c6cc32dcbcb9842f98cd3d3cd?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FCT-6.png",
@@ -4907,7 +4907,7 @@ func TestParseLabelCustomFields(t *testing.T) {
                   "accountType":"atlassian"
                },
                {
-                  "self":"https://ctreminiom.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
+                  "self":"https://m1keru.atlassian.net/rest/api/3/user?accountId=557058%3Ad6b5955a-e193-41e1-b051-79cdb0755d68",
                   "accountId":"557058:d6b5955a-e193-41e1-b051-79cdb0755d68",
                   "avatarUrls":{
                      "48x48":"https://secure.gravatar.com/avatar/53e3e37950768a905d53cebdfcbd63e3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-1.png",
@@ -5014,7 +5014,7 @@ func TestParseSprintCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":[
@@ -5034,7 +5034,7 @@ func TestParseSprintCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
@@ -5066,17 +5066,17 @@ func TestParseSprintCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -5097,7 +5097,7 @@ func TestParseSprintCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -5117,7 +5117,7 @@ func TestParseSprintCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null,
@@ -5126,7 +5126,7 @@ func TestParseSprintCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
@@ -5157,16 +5157,16 @@ func TestParseSprintCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
          }
       },
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":"5e5f6a63157ed50cd2b9eaca"
@@ -5293,11 +5293,11 @@ func TestParseSelectCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10058",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10058",
 			  "value": "Scranton 1",
 			  "id": "10058"
 			}
@@ -5306,11 +5306,11 @@ func TestParseSelectCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10058",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10058",
 			  "value": "Scranton 1",
 			  "id": "10058"
 			}
@@ -5331,17 +5331,17 @@ func TestParseSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -5362,7 +5362,7 @@ func TestParseSelectCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -5382,7 +5382,7 @@ func TestParseSelectCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null,
@@ -5391,11 +5391,11 @@ func TestParseSelectCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":{
-			  "self": "https://ctreminiom.atlassian.net/rest/api/3/customFieldOption/10058",
+			  "self": "https://m1keru.atlassian.net/rest/api/3/customFieldOption/10058",
 			  "value": "Scranton 1",
 			  "id": "10058"
 			}
@@ -5415,16 +5415,16 @@ func TestParseSelectCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
-            "customfield_10046": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "customfield_10046": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
          }
       },
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":"5e5f6a63157ed50cd2b9eaca"
@@ -5530,7 +5530,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046":[
@@ -5550,7 +5550,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
@@ -5582,17 +5582,17 @@ func TestParseAssetCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -5613,7 +5613,7 @@ func TestParseAssetCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -5633,7 +5633,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null
@@ -5642,7 +5642,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
@@ -5673,7 +5673,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": "test"
@@ -5682,7 +5682,7 @@ func TestParseAssetCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046":[
@@ -5852,7 +5852,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": "2023-09-22"
@@ -5861,7 +5861,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
              "customfield_10046": "2023-09-23"
@@ -5882,17 +5882,17 @@ func TestParseDatePickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -5913,7 +5913,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -5933,7 +5933,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null,
@@ -5942,7 +5942,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": "2023-09-23"
@@ -5962,7 +5962,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": 33030303,
@@ -5971,7 +5971,7 @@ func TestParseDatePickerCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": true
@@ -6073,7 +6073,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": "2023-07-12T16:00:00.000+0100"
@@ -6082,7 +6082,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
              "customfield_10046": "2023-07-12T16:00:00.000+0100"
@@ -6103,17 +6103,17 @@ func TestParseDateTimeCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "no_fields": {
                 "customfield_10046": [
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10046",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10046",
                         "value": "Option 3",
                         "id": "10046"
                     },
                     {
-                        "self": "https://ctreminiom.atlassian.net/rest/api/2/customFieldOption/10047",
+                        "self": "https://m1keru.atlassian.net/rest/api/2/customFieldOption/10047",
                         "value": "Option 4",
                         "id": "10047"
                     }
@@ -6134,7 +6134,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "10035",
-            "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+            "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
             "key": "KP-22",
             "fields": {
                 "customfield_10046": null
@@ -6154,7 +6154,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": null,
@@ -6163,7 +6163,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": "2023-07-12T16:00:00.000+0100"
@@ -6183,7 +6183,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10046": 33030303,
@@ -6192,7 +6192,7 @@ func TestParseDateTimeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10046": true
@@ -6288,7 +6288,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-22",
       "fields": {
         "customfield_10010": {
@@ -6340,7 +6340,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-23",
       "fields": {
         "customfield_10010": {
@@ -6404,7 +6404,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-22",
       "fields": {
         "customfield_10010": {}
@@ -6413,7 +6413,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-23",
       "fields": {
         "customfield_10010": {}
@@ -6433,7 +6433,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-22",
       "no_fields": {
         "customfield_10010": {}
@@ -6442,7 +6442,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
     {
       "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
       "id": "10035",
-      "self": "https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+      "self": "https://m1keru.atlassian.net/rest/api/2/issue/10035",
       "key": "KP-23",
       "no_fields": {
         "customfield_10010": {}
@@ -6462,7 +6462,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-22",
          "fields":{
             "customfield_10010": 33030303,
@@ -6471,7 +6471,7 @@ func TestParseRequestTypeCustomFields(t *testing.T) {
       {
          "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
          "id":"10035",
-         "self":"https://ctreminiom.atlassian.net/rest/api/2/issue/10035",
+         "self":"https://m1keru.atlassian.net/rest/api/2/issue/10035",
          "key":"KP-23",
          "fields":{
             "customfield_10010": true

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	model "github.com/ctreminiom/go-atlassian/pkg/infra/models"
-	"github.com/ctreminiom/go-atlassian/service"
-	"github.com/ctreminiom/go-atlassian/service/confluence"
+	model "github.com/m1keru/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/service"
+	"github.com/m1keru/go-atlassian/service/confluence"
 )
 
 // NewAttachmentService creates a new instance of AttachmentService.

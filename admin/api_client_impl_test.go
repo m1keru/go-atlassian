@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ctreminiom/go-atlassian/admin/internal"
-	model "github.com/ctreminiom/go-atlassian/pkg/infra/models"
-	"github.com/ctreminiom/go-atlassian/service/common"
-	"github.com/ctreminiom/go-atlassian/service/mocks"
+	"github.com/m1keru/go-atlassian/admin/internal"
+	model "github.com/m1keru/go-atlassian/pkg/infra/models"
+	"github.com/m1keru/go-atlassian/service/common"
+	"github.com/m1keru/go-atlassian/service/mocks"
 )
 
 func TestClient_Call(t *testing.T) {
@@ -245,14 +245,14 @@ func TestClient_NewRequest(t *testing.T) {
 	authMocked.SetUserAgent("firefox")
 	authMocked.SetExperimentalFlag()
 
-	siteAsURL, err := url.Parse("https://ctreminiom.atlassian.net")
+	siteAsURL, err := url.Parse("https://m1keru.atlassian.net")
 	if err != nil {
 		t.Fatal(err)
 	}
 
 	requestMocked, err := http.NewRequestWithContext(context.TODO(),
 		http.MethodGet,
-		"https://ctreminiom.atlassian.net/rest/2/issue/attachment",
+		"https://m1keru.atlassian.net/rest/2/issue/attachment",
 		bytes.NewReader([]byte("Hello World")),
 	)
 
@@ -376,7 +376,7 @@ func TestClient_processResponse(t *testing.T) {
 	expectedJSONResponse := `
 	{
 	  "id": 4,
-	  "self": "https://ctreminiom.atlassian.net/rest/agile/1.0/board/4",
+	  "self": "https://m1keru.atlassian.net/rest/agile/1.0/board/4",
 	  "name": "KP - Scrum",
 	  "type": "scrum"
 	}`
@@ -480,7 +480,7 @@ func TestNew(t *testing.T) {
 			name: "when the parameters are correct",
 			args: args{
 				httpClient: http.DefaultClient,
-				site:       "https://ctreminiom.atlassian.net",
+				site:       "https://m1keru.atlassian.net",
 			},
 			want:    mockClient,
 			wantErr: false,
